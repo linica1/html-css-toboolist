@@ -1,0 +1,60 @@
+
+    .container 
+{
+    max-width: 1500px;
+    margin:0 auto;
+}
+
+header{
+    background-size: 400px;
+    height: 80px;
+    background-color: rgb(242, 242, 249);
+}
+
+header strong {
+    font-size: 2rem; /* Per aumentare il valore per un testo più grande */
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.body
+{
+    margin: 0;
+    background-color: rgba(211, 211, 211, 0.535)
+}
+
+.todolist-box {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgb(230, 226, 226);
+    padding: 32px 24px;
+}
+
+#button1 {
+    background-color: #47adf1;      /* Blu */
+    color: #888888;                 /* Testo grigio */
+    border: 2px solid #888888;      /* Bordo grigio */
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+#button2 {
+    background-color: #fff;         /* Sfondo bianco */
+    color: #888888;                 /* Testo grigio */
+    border: 2px solid #888888;      /* Bordo grigio */
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
